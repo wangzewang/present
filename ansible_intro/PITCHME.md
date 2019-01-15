@@ -111,9 +111,9 @@ misc ansible
 kube ansible
 
 ```
-[1] fetch ansible 是为了fetch离线安装的数据，包括apt 离线包。docker 镜像，二进制文件等
-[2] misc ansible 包含了k8s安装的准备工作，包括安装python,驱动，本地registry, nfs server 搭建等
-[3] kube ansible 是k8s安装脚本
+@[1] fetch ansible 是为了fetch离线安装的数据，包括apt 离线包。docker 镜像，二进制文件等
+@[2] misc ansible 包含了k8s安装的准备工作，包括安装python,驱动，本地registry, nfs server 搭建等@
+@[3] kube ansible 是k8s安装脚本
 
 ---
 
