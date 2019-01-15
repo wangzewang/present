@@ -99,8 +99,11 @@ dbservers
 ```
 
 @[1](host 定义了这个块执行的目标host)
-@[2-4](定义一些变量)
+@[2-4](变量定义)
 @[5-9](定义了这个块需要对目标host执行的任务)
 @[6-7](定义一个任务的name,还有需要调用的module)
 
 ---
+### A Hello World
+---?gist=wangzewang/fac14d4cee0776e51f5175e1fe7fec39
+
