@@ -115,5 +115,8 @@ kube ansible
 [2] misc ansible 包含了k8s安装的准备工作，包括安装python,驱动，本地registry, nfs server 搭建等
 [3] kube ansible 是k8s安装脚本
 
+---
+
+
 
 
