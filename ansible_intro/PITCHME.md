@@ -11,7 +11,9 @@
 
 ---
 ### Ansible 安装
-
+<br>
+<br>
+<br>
 
 ```
 # install ansible using pip
@@ -20,12 +22,6 @@ pip install ansible
 
 
 ```
-
-
----
-### Ansible 工作方式 
-
-![](https://ws2.sinaimg.cn/large/006tNc79gy1fz5y1g1azkj31bh0u0wof.jpg)
 
 ---
 ### Ansible Inventory file
