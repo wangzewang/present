@@ -83,7 +83,7 @@ dbservers
 ---
 
 <br>
-<br>
+
 ```
 - host: webservers
   vars:
@@ -94,8 +94,6 @@ dbservers
     yum: pkg=httpd state=latest
   - name: write the apache config file
     template: src=/srv/httpd.j2 dest=/etc/httpd/conf
-
-
 ```
 
 @[1](host 定义了这个块执行的目标host)
@@ -104,6 +102,18 @@ dbservers
 @[6-7](定义一个任务的name,还有需要调用的module)
 
 ---
-### A Hello World
----?gist=wangzewang/fac14d4cee0776e51f5175e1fe7fec39
+
+### Ansible playbook repository介绍 
+
+```
+fetch ansible 
+misc ansible
+kube ansible
+
+```
+[1] fetch ansible 是为了fetch离线安装的数据，包括apt 离线包。docker 镜像，二进制文件等
+[2] misc ansible 包含了k8s安装的准备工作，包括安装python,驱动，本地registry, nfs server 搭建等
+[3] kube ansible 是k8s安装脚本
+
+
 
