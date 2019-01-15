@@ -27,23 +27,31 @@ pip install ansible
 ### Ansible Inventory file
 
 * Define how ansible will interact with remote hosts
+<br>
 * Define logical group of managed nodes
+<br>
 * Default location: /etc/ansible/hosts
+<br>
 * Ini format
 
 ---
 ### Ansible Inventory file
 * ansible_connection: local, ssh or paramiko
+<br>
 * ansible_ssh_host: the name of the host to connect to 
+<br>
 * ansible_ssh_port: the ssh port if not 22
+<br>
 * ansible_ssh_user: the ssh user name to use
+<br>
 * ansible_ssh_pass: the ssh password to use
+<br>
 * ansible_ssh_private_key_file: private key file used by ssh
 
 ---
 ### Ansible Inventory file
 
-
+<br>
 ```
 localhost ansible_connection=local
 
@@ -59,17 +67,23 @@ dbservers
 
 
 ```
+<br>
 
 
 ---
 ###  Ansible Playbook 
+<br>
 * expressed in YAML language
+<br>
 * composed of one or more "palys" in a list
+<br>
 * allowing multi-machine deployments orchestration 
+<br>
 
 ---
 
-
+<br>
+<br>
 ```
 - host: webservers
   vars:
